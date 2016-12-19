@@ -44,7 +44,7 @@
 <td><%= reservation.getStartHour() + "時" + reservation.getStartMinute() + "分" %></td>
 <td><%= reservation.getPeriodHour() + "時" + reservation.getPeriodMinute() + "分" %></td>
 <td>
-<form method="post" action="RoomDetailsServlet">
+<form method="post" action="ReservationDetailsServlet">
 <input type="hidden" name="RID" value="<%= reservation.getRid() %>" />
 <input type="submit" value="詳細" />
 </form>
